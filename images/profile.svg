@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" />
+  <!-- Shoulders & Shirt -->
+  <path d="M100 360 C100 270, 300 270, 300 360 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M160 270 L200 320 L240 270 Z" fill="#2563eb"/>
+  <!-- Neck -->
+  <rect x="175" y="210" width="50" height="50" rx="10" fill="#f59e0b" />
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="65" ry="75" fill="url(#skinGrad)" />
+  <!-- Hair -->
+  <path d="M135 170 C135 110, 265 110, 265 170 C250 140, 230 135, 200 135 C170 135, 150 140, 135 170 Z" fill="#1e293b" />
+  <!-- Glasses -->
+  <rect x="150" y="165" width="40" height="25" rx="6" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <rect x="210" y="165" width="40" height="25" rx="6" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <line x1="190" y1="177" x2="210" y2="177" stroke="#1e293b" stroke-width="4"/>
+  <!-- Eyes -->
+  <circle cx="170" cy="177" r="4" fill="#1e293b" />
+  <circle cx="230" cy="177" r="4" fill="#1e293b" />
+  <!-- Smile -->
+  <path d="M185 210 Q200 225 215 210" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+</svg>

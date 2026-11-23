@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#p3)"/>
+  <!-- Card Mockup -->
+  <rect x="120" y="45" width="360" height="260" rx="14" fill="#ffffff" opacity="0.95"/>
+  <text x="150" y="90" fill="#1e293b" font-size="20" font-family="sans-serif" font-weight="bold">Quiz Question #05</text>
+  <rect x="150" y="110" width="300" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="150" y="125" width="220" height="8" rx="4" fill="#e2e8f0"/>
+  <!-- Options -->
+  <rect x="150" y="150" width="300" height="32" rx="6" fill="#f1f5f9"/>
+  <circle cx="170" cy="166" r="6" fill="#94a3b8"/>
+  <rect x="150" y="195" width="300" height="32" rx="6" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="170" cy="211" r="6" fill="#22c55e"/>
+  <text x="190" y="216" fill="#15803d" font-size="14" font-family="sans-serif" font-weight="600">Correct Answer</text>
+  <rect x="150" y="240" width="300" height="32" rx="6" fill="#f1f5f9"/>
+  <circle cx="170" cy="256" r="6" fill="#94a3b8"/>
+</svg>
